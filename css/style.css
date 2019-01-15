@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.wrapper {
+  max-width: 1080px;
+  margin: 0 auto; }
+
+h1 {
+  text-align: center; }
+
+.taskBar {
+  margin: 0 auto;
+  text-align: center; }
+
+#mainInput {
+  width: 80%;
+  font-size: 20px;
+  padding: 3px;
+  border-bottom: 2px solid blue;
+  border-top: none;
+  border-right: none;
+  border-left: none; }
+
+#addButton {
+  padding: 8px 30px;
+  background: #6a6bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-left: 10px; }
+
+ul {
+  margin-top: 40px; }
+
+li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  position: relative;
+  list-style: none;
+  font-size: 20px;
+  margin-top: 10px;
+  border-bottom: 1px solid black; }
+
+.check {
+  position: absolute;
+  top: 4px;
+  right: 45px;
+  text-align: right;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 8px 9px;
+  background: rgba(0, 0, 255, 0.55); }
+
+.remove {
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  text-align: right;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 8px 10px;
+  background: rgba(0, 0, 255, 0.55); }
+
+.checked {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  position: relative;
+  list-style: none;
+  font-size: 20px;
+  margin-top: 10px;
+  background: rgba(100, 116, 255, 0.6);
+  text-decoration: line-through; }
